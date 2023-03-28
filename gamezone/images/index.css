@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+    background-color: #000;
+}
+.opacity  {
+    opacity: 0.4;
+}
+
+#main {
+
+}
+#header {
+
+}
+.backround-header {
+    position: relative !important;
+}
+.header-container-title {
+    position: absolute;
+    top:3.555555%;
+    left: 1%;
+   
+}
+.menu-header ul {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+.menu-header li {
+    padding: 0 10px;
+    list-style-type: none;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+.container-first {
+    display: inline-block;
+}
+.content-silider {
+    margin-left: 78px;
+}
+.content-silider-img {
+    display: inline-block;
+}
+.content-silider-img img {
+    margin-top: 41px;
+    margin-left: 26px;
+}
+.content-silider-sub-img {
+    float: right;
+}
+.container-second {
+    float: right;
+    margin-right: 350px;
+}
+.content {
+    color: #fff;
+    margin-top: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.content h4 {
+    font-size: 20px;
+    color: red;
+}
+.content-list-item-first {
+   display: flex;
+   justify-content:space-between;
+   padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.content-list-item-first .item-img {
+    color: red;
+}
+.content-list-item-first .item-img img {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.content-list {
+    color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.content-list h4 {
+    color: red;
+    font-size: 20px;
+    margin: 16px 0;
+}
+.content-list a {
+    margin-left: 14px;
+    color: #fff;
+}
+.content-list ul {
+    display: inline-block;
+}
+.content-list ul.sub-list {
+    margin-left: 64px;
+}
+.content-list li {
+    list-style-type: none;
+}
+.content-list-item-second {
+    display: flex;
+    justify-content:space-between;
+
+ }
+ .content-list-item-second .item-img {
+     color: red;
+ }
+ .content-list-item-second .item-img img {
+     margin-top: 20px;
+     margin-bottom: 8px;
+ }
+ .footer {
+    color: #fff;
+    margin-top: 66px;
+ }
+ .footer p {
+    opacity: 0.5;
+ }
+ .footer a {
+    color: #fff;
+    opacity: 0.5;
+ }
+ .footer p span.sub-footer-content {
+    opacity: 0.9 !important;
+ }
